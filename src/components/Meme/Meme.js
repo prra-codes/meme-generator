@@ -29,7 +29,6 @@ const Meme = () => {
     const randomNumber = Math.floor(Math.random() * allMemes.length); //get random number for a meme in the array the memes from the API
     const url = allMemes[randomNumber].url; //get a random url from the memes array
 
-    // setMeme({ ...meme, randomImage: url });
     setMeme((prevMeme) => ({
       ...prevMeme,
       randomImage: url,
