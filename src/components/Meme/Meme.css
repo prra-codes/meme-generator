@@ -43,7 +43,10 @@ main {
 .meme--image {
   margin-top: 10px;
   width: 90%;
-  height: 300px;
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 80vw;
+  max-width: 1000px;
 }
 
 .meme {
