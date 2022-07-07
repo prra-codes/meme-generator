@@ -35,9 +35,14 @@ main {
   padding: 7px;
 }
 
+.flex-meme-image {
+  display: flex;
+  justify-content: center;
+}
+
 .meme--image {
   margin-top: 10px;
-  width: 100%;
+  width: 90%;
   height: 300px;
 }
 
