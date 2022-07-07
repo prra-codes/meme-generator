@@ -42,15 +42,16 @@ main {
 
 .meme--image {
   margin-top: 10px;
-  width: 90%;
+  width: 80%;
   min-height: 200px;
   min-width: 200px;
-  max-height: 80vw;
+  max-height: 500px;
   max-width: 1000px;
 }
 
 .meme {
   position: relative;
+  background-color: green;
 }
 
 .meme--text {
